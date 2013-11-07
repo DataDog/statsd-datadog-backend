@@ -1,0 +1,22 @@
+{
+  "author": "Datadog <support@datadoghq.com>",
+  "name": "statsd-datadog-backend",
+  "description": "A StatsD backend that send metrics to Datadog",
+  "version": "0.1.0",
+  "homepage": "https://github.com/DataDog/statsd-datadog-backend",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DataDog/statsd-datadog-backend.git"
+  },
+  "keywords": [
+    "datadog",
+    "metrics",
+    "statsd"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "lib/datadog.js"
+}
