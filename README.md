@@ -11,6 +11,7 @@ A plugin to connect etsy's statsD to Datadog
 
 ```js
 datadogApiKey: "your_api_key" // You can get it from this page: https://app.datadoghq.com/account/settings#api
+datadogPrefix: "your_prefix"
 ```
 
 ## How to enable
