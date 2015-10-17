@@ -12,6 +12,14 @@ A plugin to connect etsy's statsD to Datadog
 ```js
 datadogApiKey: "your_api_key" // You can get it from this page: https://app.datadoghq.com/account/settings#api
 datadogPrefix: "your_prefix" // Your metrics will be prefixed by this prefix
+datadogRemovePrefix: 2 // Number of period delimited prefixes to remove. If you use this option with *datadogPrefix* remove will happen prior to addition.
+```
+### Example:
+
+If the metric name is called **"hosts.foo.bar.count"**, it will be rewritten to **"application.bar.count"**:
+```
+datadogRemovePrefix: 2
+datadogPrefix: "application"
 ```
 
 ## How to enable
