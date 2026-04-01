@@ -17,7 +17,7 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "request": ">=2.53.0"
+    "request": ">=2.88.2"
   },
   "devDependencies": {},
   "main": "lib/datadog.js"
